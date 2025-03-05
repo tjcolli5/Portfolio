@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Theodore Collins</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/favicon_io/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="mywork.html">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out to me for collaborations, inquiries, or just to say hello!</p>
+        
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:tjcolli5@asu.edu">tjcolli5@asu.edu</a></li>
+            <li><strong>Phone:</strong> (720)667-9021</li>
+            <li><strong>Location:</strong> Jackson, Tennessee</li>
+        </ul>
+    </section>
+
+    <section id="contact-form">
+        <h2>Send a Message</h2>
+        <form action="mailto:tjcolli5@asu.edu" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="general">General Inquiry</option>
+                <option value="collaboration">Collaboration Request</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <button type="submit" class="button">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Theodore Collins | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
